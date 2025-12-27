@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  font-family: 'Inter', sans-serif;
+  background: #0A0A0A;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Clash Display font fallback - using Inter as substitute with exact weights */
+.font-clash {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; /* Medium weight for headings */
+  letter-spacing: 0.2px;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
