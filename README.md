@@ -174,18 +174,6 @@ Please take responsive screenshots for:
 - Tablet (768x1024 or similar)
 - Mobile (375x667 or similar)
 
-## 🤝 Contributing
-
-This is an interview project submission. For questions or issues, please contact the repository owner.
-
-## 📄 License
-
-This project is created for UI Engineering Assignment purposes.
-
-## 👤 Author
-
-Created as part of a UI Engineering interview assignment.
-
 ---
 
 **Live Preview**: [Add your deployment URL here]
